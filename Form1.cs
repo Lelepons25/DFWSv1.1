@@ -63,5 +63,12 @@ namespace DFWSv1._1
             More more=new More();
             more.Show();
         }
+
+        private void ProfileButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Profile profile = new Profile();
+            profile.Show();
+        }
     }
 }
